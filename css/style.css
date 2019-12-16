@@ -1,0 +1,67 @@
+.taskName{
+    padding: 30px 0;
+}
+.heading,.content{
+    color: #eee;
+    padding: 15px;
+}
+.heading{
+    background-color: #0c7480;
+    position: relative;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.content{
+    background-color: #898989;
+    display: none;
+}
+.heading h5{display: inline-block;text-transform: capitalize}
+.heading .fa-chevron-down{
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5rem;
+    transition: all linear .3s;
+}
+.dis_none{
+    display: none;
+}
+
+textarea{
+    padding: 15px;
+    color: #1b1e21;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    transition: all linear .3s;
+    border: 2px solid #d1d1d1;
+
+}
+textarea:focus{
+    border: 2px solid #323639;
+    box-shadow: 0 0 .5rem #1b1e2154;
+}
+.counter{
+    display: inline-block;
+    margin: 0 .5rem;
+    color: #0C919D;
+    font-weight: bold;
+}
+.col-md-3 div{
+    background-color: #41474a;
+    color: #f7f7f7;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding: 15px 0;
+}
+#hours,#days,#minutes,#seconds{
+    display: block;
+}
+.event{
+    font-size: 1.5rem;
+}
+.event p:last-child{
+    color: #0C919D;
+}
